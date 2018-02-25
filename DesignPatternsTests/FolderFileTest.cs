@@ -6,7 +6,7 @@ using System.Collections.Generic;
 namespace DesignPatterns
 {
     [TestClass]
-    public class FolderFileLinkTest
+    public class FolderFileTest
     {
         [TestMethod]
         public void Should_folder_contains_one_element_when_gettings_contains()
