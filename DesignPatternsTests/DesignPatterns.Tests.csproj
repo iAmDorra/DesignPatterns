@@ -54,6 +54,7 @@
   <ItemGroup>
     <Compile Include="FolderFileTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SolarSystemTest.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
@@ -62,6 +63,10 @@
     <ProjectReference Include="..\Exemple1\FolderFile.csproj">
       <Project>{05f9ccf2-de8f-45e3-bc19-7911c8851f0c}</Project>
       <Name>FolderFile</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SolarSystem\SolarSystem.csproj">
+      <Project>{D7D2B89F-41CE-494F-B369-0C0C9D2C0FA2}</Project>
+      <Name>SolarSystem</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets" Condition="Exists('$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets')" />
