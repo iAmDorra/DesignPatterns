@@ -52,6 +52,7 @@
     <Reference Include="System.Core" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CompressorTest.cs" />
     <Compile Include="FolderFileTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SolarSystemTest.cs" />
@@ -60,6 +61,14 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\ClientService\ClientService.csproj">
+      <Project>{8fc2bfb7-337d-450f-badb-0650369bc0df}</Project>
+      <Name>ClientService</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DataCompression\DataCompression.csproj">
+      <Project>{2d1cde34-506b-4500-9f1d-5da76c3fb2f5}</Project>
+      <Name>DataCompression</Name>
+    </ProjectReference>
     <ProjectReference Include="..\Exemple1\FolderFile.csproj">
       <Project>{05f9ccf2-de8f-45e3-bc19-7911c8851f0c}</Project>
       <Name>FolderFile</Name>

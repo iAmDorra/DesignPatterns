@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SolarSystem", "SolarSystem\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClientService", "ClientService\ClientService.csproj", "{8FC2BFB7-337D-450F-BADB-0650369BC0DF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataCompression", "DataCompression\DataCompression.csproj", "{2D1CDE34-506B-4500-9F1D-5DA76C3FB2F5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{8FC2BFB7-337D-450F-BADB-0650369BC0DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8FC2BFB7-337D-450F-BADB-0650369BC0DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8FC2BFB7-337D-450F-BADB-0650369BC0DF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2D1CDE34-506B-4500-9F1D-5DA76C3FB2F5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2D1CDE34-506B-4500-9F1D-5DA76C3FB2F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2D1CDE34-506B-4500-9F1D-5DA76C3FB2F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2D1CDE34-506B-4500-9F1D-5DA76C3FB2F5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
