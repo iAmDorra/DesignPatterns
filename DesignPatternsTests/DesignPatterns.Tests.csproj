@@ -55,6 +55,7 @@
     <Compile Include="CompressorTest.cs" />
     <Compile Include="FolderFileTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ShoppingTest.cs" />
     <Compile Include="SolarSystemTest.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -72,6 +73,10 @@
     <ProjectReference Include="..\Exemple1\FolderFile.csproj">
       <Project>{05f9ccf2-de8f-45e3-bc19-7911c8851f0c}</Project>
       <Name>FolderFile</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Shopping\Shopping.csproj">
+      <Project>{76168cb7-1cca-460e-8d16-9e4ceadc1f40}</Project>
+      <Name>Shopping</Name>
     </ProjectReference>
     <ProjectReference Include="..\SolarSystem\SolarSystem.csproj">
       <Project>{D7D2B89F-41CE-494F-B369-0C0C9D2C0FA2}</Project>
