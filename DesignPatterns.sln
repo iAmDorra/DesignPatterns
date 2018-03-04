@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShoesFabric", "ShoesFabric\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shopping", "Shopping\Shopping.csproj", "{76168CB7-1CCA-460E-8D16-9E4CEADC1F40}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AtDentist", "AtDentist\AtDentist.csproj", "{0AEEAF81-8DD9-41BB-86A5-89FAA6FBBCB1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +53,10 @@ Global
 		{76168CB7-1CCA-460E-8D16-9E4CEADC1F40}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{76168CB7-1CCA-460E-8D16-9E4CEADC1F40}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{76168CB7-1CCA-460E-8D16-9E4CEADC1F40}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0AEEAF81-8DD9-41BB-86A5-89FAA6FBBCB1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0AEEAF81-8DD9-41BB-86A5-89FAA6FBBCB1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0AEEAF81-8DD9-41BB-86A5-89FAA6FBBCB1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0AEEAF81-8DD9-41BB-86A5-89FAA6FBBCB1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
