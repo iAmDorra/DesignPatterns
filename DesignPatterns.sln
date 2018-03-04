@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClientService", "ClientServ
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataCompression", "DataCompression\DataCompression.csproj", "{2D1CDE34-506B-4500-9F1D-5DA76C3FB2F5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShoesFabric", "ShoesFabric\ShoesFabric.csproj", "{16EEC03A-1E5F-444E-8CDA-D76B070B1085}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{2D1CDE34-506B-4500-9F1D-5DA76C3FB2F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2D1CDE34-506B-4500-9F1D-5DA76C3FB2F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2D1CDE34-506B-4500-9F1D-5DA76C3FB2F5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{16EEC03A-1E5F-444E-8CDA-D76B070B1085}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{16EEC03A-1E5F-444E-8CDA-D76B070B1085}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{16EEC03A-1E5F-444E-8CDA-D76B070B1085}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{16EEC03A-1E5F-444E-8CDA-D76B070B1085}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
