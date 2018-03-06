@@ -1,2 +1,4 @@
 # DesignPatterns
-Design patterns cours
+
+Use Visual Studio to compile the solution
+
