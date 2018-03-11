@@ -6,7 +6,7 @@ namespace DesignPatterns.Tests
     [TestClass]
     public class SolarSystemTest
     {
-        [TestMethod]
+        //[TestMethod]
         public void ShouldContainsOnlyOneSun()
         {
             var firstSun = new Sun();
