@@ -1,6 +1,6 @@
 ﻿namespace LikeCounter
 {
-    public class ProductLiker : ILikeNumberProvider
+    public class ProductAnalysis : ILikeNumberProvider
     {
         private int likesNumber = 0;
 

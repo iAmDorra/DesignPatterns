@@ -1,7 +1,6 @@
 ﻿using LikeCounter;
 using LikeCounter.LikeBox;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-using NFluent;
 
 namespace DesignPatterns.Tests
 {
@@ -14,7 +13,7 @@ namespace DesignPatterns.Tests
             ProductAnalysis liker = new ProductAnalysis();
             liker.LikeProduct();
             int numberLikes = liker.GetNumberLikes();
-            Check.That(numberLikes).IsEqualTo(1);
+            Assert.AreEqual(1, numberLikes);
         }
 
         [TestMethod]
@@ -24,7 +23,7 @@ namespace DesignPatterns.Tests
             liker.LikeProduct();
             liker.LikeProduct();
             int numberLikes = liker.GetNumberLikes();
-            Check.That(numberLikes).IsEqualTo(2);
+            Assert.AreEqual(2, numberLikes);
         }
 
         [TestMethod]
@@ -34,7 +33,7 @@ namespace DesignPatterns.Tests
             liker.LikeProduct();
             LikesCounter counter = new LikesCounter(liker);
             int likeNumber = counter.CountLikes();
-            Check.That(likeNumber).IsEqualTo(1);
+            Assert.AreEqual(1, likeNumber);
         }
 
         [TestMethod]

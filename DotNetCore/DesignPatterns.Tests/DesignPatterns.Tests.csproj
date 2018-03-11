@@ -17,6 +17,7 @@
     <ProjectReference Include="..\DataCompression\DataCompression.csproj" />
     <ProjectReference Include="..\FolderFile\FolderFile.csproj" />
     <ProjectReference Include="..\HotelComparator\HotelComparator.csproj" />
+    <ProjectReference Include="..\LikeCounter\LikeCounter.csproj" />
     <ProjectReference Include="..\ShoesFabric\ShoesFabric.csproj" />
     <ProjectReference Include="..\Shopping\Shopping.csproj" />
     <ProjectReference Include="..\SolarSystem\SolarSystem.csproj" />
