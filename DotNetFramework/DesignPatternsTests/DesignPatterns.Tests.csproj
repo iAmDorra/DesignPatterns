@@ -48,6 +48,12 @@
     <Reference Include="NFluent, Version=2.1.1.107, Culture=neutral, PublicKeyToken=18828b37b84b1437, processorArchitecture=MSIL">
       <HintPath>..\packages\NFluent.2.1.1\lib\net45\NFluent.dll</HintPath>
     </Reference>
+    <Reference Include="NSubstitute, Version=1.8.2.0, Culture=neutral, PublicKeyToken=92dd2e9066daa5ca, processorArchitecture=MSIL">
+      <HintPath>..\packages\NSubstitute.1.8.2.0\lib\net45\NSubstitute.dll</HintPath>
+    </Reference>
+    <Reference Include="NSubstituteAutoMocker, Version=1.1.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\NSubstituteAutoMocker.1.1.0.0\lib\net45\NSubstituteAutoMocker.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
   </ItemGroup>
@@ -55,6 +61,7 @@
     <Compile Include="CompressorTest.cs" />
     <Compile Include="FolderFileTest.cs" />
     <Compile Include="HotelComparatorTest.cs" />
+    <Compile Include="ProductLikerTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="ShoppingTest.cs" />
     <Compile Include="SolarSystemTest.cs" />
@@ -78,6 +85,10 @@
     <ProjectReference Include="..\HotelComparator\HotelComparator.csproj">
       <Project>{6a7c7797-5103-458d-93fa-c9ec02059f5a}</Project>
       <Name>HotelComparator</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\LikeCounter\LikeCounter.csproj">
+      <Project>{7a1b98fe-cfd2-4c6b-8648-a2c93b380ccb}</Project>
+      <Name>LikeCounter</Name>
     </ProjectReference>
     <ProjectReference Include="..\Shopping\Shopping.csproj">
       <Project>{76168cb7-1cca-460e-8d16-9e4ceadc1f40}</Project>
