@@ -2,29 +2,35 @@
 
 namespace FolderFile
 {
-    public class Folder
+    public class Folder : IElement, IReferenceableElement
     {
-        public string Name { get; set; }
+        private string name;
+        private List<IElement> elements;
 
-        public List<File> Files { get; set; }
-        
-        public List<Folder> Folders { get; set; }
+        public Folder(string name)
+        {
+            this.name = name;
+            this.elements = new List<IElement>();
+        }
+
+        public string Name
+        {
+            get
+            {
+                return this.name;
+            }
+        }
+        public List<IElement> Elements
+        {
+            get
+            {
+                return elements;
+            }
+        }
 
         public int GetContainsNumber()
         {
-            int filesCount = 0;
-            if(Files != null)
-            {
-                filesCount = Files.Count;
-            }
-
-            int foldersCount = 0;
-            if(Folders != null)
-            {
-                foldersCount = Folders.Count;
-            }
-
-            return filesCount + foldersCount;
+            return Elements.Count;
         }
     }
 }
