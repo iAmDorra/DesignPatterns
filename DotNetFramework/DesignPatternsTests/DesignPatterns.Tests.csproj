@@ -58,6 +58,7 @@
     <Reference Include="System.Core" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ClientServiceTest.cs" />
     <Compile Include="CompressorTest.cs" />
     <Compile Include="FolderFileTest.cs" />
     <Compile Include="HotelComparatorTest.cs" />
