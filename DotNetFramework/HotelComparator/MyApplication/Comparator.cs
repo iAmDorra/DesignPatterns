@@ -2,9 +2,9 @@
 using System;
 using System.Collections.Generic;
 
-namespace HotelComparator
+namespace HotelComparator.MyApplication
 {
-    public class Comparator
+    public class Comparator : IComparator
     {
         private readonly IAccoHotel accoHotel;
 
