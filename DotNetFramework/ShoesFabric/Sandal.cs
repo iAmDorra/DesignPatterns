@@ -1,12 +1,6 @@
 ﻿namespace ShoesFabric
 {
-    internal class Sandal : IShoe
+    public abstract class Sandal : IShoe
     {
-        private ShoeType type;
-
-        public Sandal(ShoeType leather)
-        {
-            this.type = leather;
-        }
     }
 }
