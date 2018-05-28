@@ -40,10 +40,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Application\ILikeNumberProvider.cs" />
+    <Compile Include="Application\ILikeCounter.cs" />
+    <Compile Include="Application\IProductAnalysis.cs" />
     <Compile Include="LikeBox\LikesCounter.cs" />
     <Compile Include="Application\ProductAnalysis.cs" />
-    <Compile Include="LikeBox\Runner.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
