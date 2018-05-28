@@ -1,7 +1,19 @@
 ﻿namespace FolderFile
 {
-    public class File
+    public class File : IElement, IReferenceableElement
     {
-        public string Name { get; set; }
+        private string name;
+        public File(string name)
+        {
+            this.name = name;
+        }
+
+        public string Name
+        {
+            get
+            {
+                return this.name;
+            }
+        }
     }
 }
