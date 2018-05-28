@@ -60,6 +60,7 @@
   <ItemGroup>
     <Compile Include="ClientServiceTest.cs" />
     <Compile Include="CompressorTest.cs" />
+    <Compile Include="DentistTest.cs" />
     <Compile Include="FolderFileTest.cs" />
     <Compile Include="HotelComparatorTest.cs" />
     <Compile Include="ProductLikerTest.cs" />
@@ -71,6 +72,10 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\AtDentist\AtDentist.csproj">
+      <Project>{0aeeaf81-8dd9-41bb-86a5-89faa6fbbcb1}</Project>
+      <Name>AtDentist</Name>
+    </ProjectReference>
     <ProjectReference Include="..\ClientService\ClientService.csproj">
       <Project>{8fc2bfb7-337d-450f-badb-0650369bc0df}</Project>
       <Name>ClientService</Name>
