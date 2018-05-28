@@ -1,6 +1,6 @@
 ﻿namespace ClientService
 {
-    public class Ordering
+    internal class Ordering : IOrdering
     {
         public void UpdateAdress(Client client, Adress newAdress)
         {
