@@ -2,7 +2,7 @@
 {
     public class Room
     {
-        private int roomNumber;
+        private readonly int roomNumber;
         private readonly RoomType type;
 
         public Room(int roomNumber, RoomType type)
@@ -12,5 +12,7 @@
         }
 
         public int Number { get => this.roomNumber; }
+
+        public RoomType Type => type;
     }
 }
