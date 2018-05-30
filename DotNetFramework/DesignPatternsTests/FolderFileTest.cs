@@ -40,13 +40,13 @@ namespace DesignPatterns
 
             return parentFolder;
         }
-        
+
         [TestMethod]
         public void Should_reference_file_when_creating_a_link_with_a_file()
         {
             var textFile = new File("data.txt");
             var fileLink = new Link("linkData", textFile);
-            
+
             Check.That(fileLink.Reference).IsEqualTo(textFile);
         }
 
@@ -59,5 +59,13 @@ namespace DesignPatterns
             Check.That(fileLink.Reference).IsEqualTo(dataFolder);
         }
 
+        [TestMethod]
+        public void Should_Write_element_name_when_calling_NameWriter()
+        {
+            IElement folder = CreateFolderTree();
+            var writer = new NameWriter();
+            Check.ThatCode(() => writer.Write(folder))
+                .DoesNotThrow();
+        }
     }
 }

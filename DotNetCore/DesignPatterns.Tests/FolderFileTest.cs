@@ -57,5 +57,14 @@ namespace DesignPatterns
 
             Check.That(fileLink.Reference).IsEqualTo(dataFolder);
         }
+
+        [TestMethod]
+        public void Should_Write_element_name_when_calling_NameWriter()
+        {
+            IElement folder = CreateFolderTree();
+            var writer = new NameWriter();
+            Check.ThatCode(() => writer.Write(folder))
+                .DoesNotThrow();
+        }
     }
 }

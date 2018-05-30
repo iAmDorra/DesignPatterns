@@ -44,7 +44,9 @@
     <Compile Include="Folder.cs" />
     <Compile Include="IElement.cs" />
     <Compile Include="IReferenceableElement.cs" />
+    <Compile Include="IWriter.cs" />
     <Compile Include="Link.cs" />
+    <Compile Include="NameWriter.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

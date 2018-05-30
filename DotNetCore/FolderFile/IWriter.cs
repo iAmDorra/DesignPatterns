@@ -1,0 +1,13 @@
+﻿using System.Collections.Generic;
+using System.Text;
+
+namespace FolderFile
+{
+    public interface IWriter
+    {
+        void Write(IElement element);
+        void Write(Link link);
+        void Write(File file);
+        void Write(Folder folder);
+    }
+}

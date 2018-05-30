@@ -26,5 +26,10 @@
                 return this.element;
             }
         }
+
+        public void Accept(IWriter writer)
+        {
+            writer.Write(this);
+        }
     }
 }

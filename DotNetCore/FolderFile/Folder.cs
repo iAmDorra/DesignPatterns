@@ -28,6 +28,11 @@ namespace FolderFile
             }
         }
 
+        public void Accept(IWriter writer)
+        {
+            writer.Write(this);
+        }
+
         public int GetContainsNumber()
         {
             return Elements.Count;
