@@ -17,6 +17,7 @@
   <ItemGroup>
     <ProjectReference Include="..\AtDentist\AtDentist.csproj" />
     <ProjectReference Include="..\ClientService\ClientService.csproj" />
+    <ProjectReference Include="..\CrepeMaker\CrepeMaker.csproj" />
     <ProjectReference Include="..\DataCompression\DataCompression.csproj" />
     <ProjectReference Include="..\FolderFile\FolderFile.csproj" />
     <ProjectReference Include="..\HotelComparator\HotelComparator.csproj" />

@@ -60,6 +60,7 @@
   <ItemGroup>
     <Compile Include="ClientServiceTest.cs" />
     <Compile Include="CompressorTest.cs" />
+    <Compile Include="CrepeMakerTest.cs" />
     <Compile Include="DentistTest.cs" />
     <Compile Include="FolderFileTest.cs" />
     <Compile Include="HotelComparatorTest.cs" />
@@ -80,6 +81,10 @@
     <ProjectReference Include="..\ClientService\ClientService.csproj">
       <Project>{8fc2bfb7-337d-450f-badb-0650369bc0df}</Project>
       <Name>ClientService</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\CrepeMaker\CrepeMaker.csproj">
+      <Project>{255afd6c-460f-4d59-bcfa-a2ae916f1061}</Project>
+      <Name>CrepeMaker</Name>
     </ProjectReference>
     <ProjectReference Include="..\DataCompression\DataCompression.csproj">
       <Project>{2d1cde34-506b-4500-9f1d-5da76c3fb2f5}</Project>

@@ -29,6 +29,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SuppliesWholesale", "Suppli
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShoesFabricBridge", "ShoesFabricBridge\ShoesFabricBridge.csproj", "{4991E97F-86F0-49D4-8F54-65EDFED346E8}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CrepeMaker", "CrepeMaker\CrepeMaker.csproj", "{938504C3-D755-4032-BE9A-8C67D42F828C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -87,6 +89,10 @@ Global
 		{4991E97F-86F0-49D4-8F54-65EDFED346E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4991E97F-86F0-49D4-8F54-65EDFED346E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4991E97F-86F0-49D4-8F54-65EDFED346E8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{938504C3-D755-4032-BE9A-8C67D42F828C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{938504C3-D755-4032-BE9A-8C67D42F828C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{938504C3-D755-4032-BE9A-8C67D42F828C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{938504C3-D755-4032-BE9A-8C67D42F828C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
