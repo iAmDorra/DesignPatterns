@@ -58,6 +58,7 @@
     <Reference Include="System.Core" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BurgerMakerTest.cs" />
     <Compile Include="ClientServiceTest.cs" />
     <Compile Include="CompressorTest.cs" />
     <Compile Include="CrepeMakerTest.cs" />
@@ -77,6 +78,10 @@
     <ProjectReference Include="..\AtDentist\AtDentist.csproj">
       <Project>{0aeeaf81-8dd9-41bb-86a5-89faa6fbbcb1}</Project>
       <Name>AtDentist</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\BurgerMaker\BurgerMaker.csproj">
+      <Project>{c238bac8-2e8c-46f7-b88d-d0e2032f2e96}</Project>
+      <Name>BurgerMaker</Name>
     </ProjectReference>
     <ProjectReference Include="..\ClientService\ClientService.csproj">
       <Project>{8fc2bfb7-337d-450f-badb-0650369bc0df}</Project>
