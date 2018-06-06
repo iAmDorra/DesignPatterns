@@ -24,6 +24,7 @@
     <ProjectReference Include="..\HotelComparator\HotelComparator.csproj" />
     <ProjectReference Include="..\LikeCounter\LikeCounter.csproj" />
     <ProjectReference Include="..\ShoesFabric\ShoesFabric.csproj" />
+    <ProjectReference Include="..\ShoppingMemento\ShoppingMemento.csproj" />
     <ProjectReference Include="..\Shopping\Shopping.csproj" />
     <ProjectReference Include="..\SolarSystem\SolarSystem.csproj" />
     <ProjectReference Include="..\SuppliesWholesale\SuppliesWholesale.csproj" />
