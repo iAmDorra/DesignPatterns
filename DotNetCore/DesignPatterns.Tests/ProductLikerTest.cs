@@ -25,6 +25,6 @@ namespace DesignPatterns.Tests
             liker.LikeProduct();
             liker.LikeProduct();
             Check.That(counter.LikeNumber).IsEqualTo(2);
-        }
+        }        
     }
 }

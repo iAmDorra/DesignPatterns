@@ -16,6 +16,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\AtDentist\AtDentist.csproj" />
+    <ProjectReference Include="..\BurgerMaker\BurgerMaker.csproj" />
     <ProjectReference Include="..\ClientService\ClientService.csproj" />
     <ProjectReference Include="..\CrepeMaker\CrepeMaker.csproj" />
     <ProjectReference Include="..\DataCompression\DataCompression.csproj" />

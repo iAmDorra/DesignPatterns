@@ -27,9 +27,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AtDentist", "AtDentist\AtDe
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SuppliesWholesale", "SuppliesWholesale\SuppliesWholesale.csproj", "{7B93857C-F196-4F87-BE2C-1ED07AFBC83F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShoesFabricBridge", "ShoesFabricBridge\ShoesFabricBridge.csproj", "{4991E97F-86F0-49D4-8F54-65EDFED346E8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ShoesFabricBridge", "ShoesFabricBridge\ShoesFabricBridge.csproj", "{4991E97F-86F0-49D4-8F54-65EDFED346E8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CrepeMaker", "CrepeMaker\CrepeMaker.csproj", "{938504C3-D755-4032-BE9A-8C67D42F828C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CrepeMaker", "CrepeMaker\CrepeMaker.csproj", "{938504C3-D755-4032-BE9A-8C67D42F828C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BurgerMaker", "BurgerMaker\BurgerMaker.csproj", "{4D0536A9-8088-4055-99F1-85EC3292D214}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -93,6 +95,10 @@ Global
 		{938504C3-D755-4032-BE9A-8C67D42F828C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{938504C3-D755-4032-BE9A-8C67D42F828C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{938504C3-D755-4032-BE9A-8C67D42F828C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4D0536A9-8088-4055-99F1-85EC3292D214}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4D0536A9-8088-4055-99F1-85EC3292D214}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4D0536A9-8088-4055-99F1-85EC3292D214}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4D0536A9-8088-4055-99F1-85EC3292D214}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

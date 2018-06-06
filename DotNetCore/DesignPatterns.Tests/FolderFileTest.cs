@@ -1,6 +1,7 @@
 ﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
 using FolderFile;
 using NFluent;
+using System.Collections.Generic;
 
 namespace DesignPatterns
 {

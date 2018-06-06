@@ -2,6 +2,10 @@
 using NFluent;
 using Shopping;
 using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 
 namespace DesignPatterns.Tests
 {
@@ -38,7 +42,7 @@ namespace DesignPatterns.Tests
             var item = new Item();
             order.AddItem(item);
         }
-
+        
         [TestMethod]
         public void Should_remove_item_from_the_order_when_it_is_in_progress()
         {
