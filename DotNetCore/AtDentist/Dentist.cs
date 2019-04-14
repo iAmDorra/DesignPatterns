@@ -1,4 +1,6 @@
-﻿namespace AtDentist
+﻿using System;
+
+namespace AtDentist
 {
     public class Dentist
     {
