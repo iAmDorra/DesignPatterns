@@ -1,25 +1,9 @@
 ﻿namespace ShoesFabric
 {
-    public class ShoeCreator : IShoeCreator
+    public interface ShoeCreator : IShoeCreator
     {
-        public IShoe CreateLeatherShoe()
-        {
-            return new StreetShoe(ShoeType.Leather);
-        }
+        StreetShoe CreateShoe();
 
-        public IShoe CreateLeatherSandal()
-        {
-            return new Sandal(ShoeType.Leather);
-        }
-
-        public IShoe CreateSyntheticShoe()
-        {
-            return new StreetShoe(ShoeType.Synthetic);
-        }
-
-        public IShoe CreateSyntheticSandal()
-        {
-            return new Sandal(ShoeType.Synthetic);
-        }
+        Sandal CreateSandal();
     }
 }

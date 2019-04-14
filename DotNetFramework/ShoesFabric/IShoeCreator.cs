@@ -2,9 +2,8 @@
 {
     public interface IShoeCreator
     {
-        IShoe CreateLeatherSandal();
-        IShoe CreateLeatherShoe();
-        IShoe CreateSyntheticSandal();
-        IShoe CreateSyntheticShoe();
+        StreetShoe CreateShoe();
+
+        Sandal CreateSandal();
     }
 }
