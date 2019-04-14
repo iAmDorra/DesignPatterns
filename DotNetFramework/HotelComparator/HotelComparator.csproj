@@ -50,6 +50,8 @@
     <Compile Include="MyApplication\AccoHotelService\RoomType.cs" />
     <Compile Include="MyApplication\Comparator.cs" />
     <Compile Include="Client\IComparator.cs" />
+    <Compile Include="MyApplication\ComparatorAdaptor.cs" />
+    <Compile Include="MyApplication\IComparator.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="MyApplication\RoomPrice.cs" />
   </ItemGroup>

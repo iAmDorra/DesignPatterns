@@ -1,4 +1,5 @@
 ﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
+using NFluent;
 using Shopping;
 using System;
 
@@ -13,8 +14,8 @@ namespace DesignPatterns.Tests
             var order = new Order();
             var item = new Item();
             order.AddItem(item);
-            
-            Assert.IsTrue(order.Items.Contains(item));
+
+            Check.That(order.Items.Contains(item)).IsTrue();
         }
 
         [TestMethod]
@@ -37,7 +38,7 @@ namespace DesignPatterns.Tests
             var item = new Item();
             order.AddItem(item);
         }
-        
+
         [TestMethod]
         public void Should_remove_item_from_the_order_when_it_is_in_progress()
         {
@@ -46,8 +47,8 @@ namespace DesignPatterns.Tests
             order.AddItem(item);
 
             order.RemoveItem(item);
-            
-            Assert.IsFalse(order.Items.Contains(item));
+
+            Check.That(order.Items.Contains(item)).IsFalse();
         }
 
         [TestMethod]
@@ -59,8 +60,8 @@ namespace DesignPatterns.Tests
             order.NextStatus();
 
             order.RemoveItem(item);
-            
-            Assert.IsFalse(order.Items.Contains(item));
+
+            Check.That(order.Items.Contains(item)).IsFalse();
         }
 
         [TestMethod]

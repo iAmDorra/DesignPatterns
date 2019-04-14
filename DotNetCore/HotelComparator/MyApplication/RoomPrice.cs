@@ -1,7 +1,7 @@
 ﻿using System;
 using HotelComparator.AccoHotelService;
 
-namespace HotelComparator
+namespace HotelComparator.MyApplication
 {
     public class RoomPrice
     {
