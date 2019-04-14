@@ -1,4 +1,5 @@
 ﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
+using NFluent;
 using SolarSystem;
 
 namespace DesignPatterns.Tests
@@ -6,13 +7,13 @@ namespace DesignPatterns.Tests
     [TestClass]
     public class SolarSystemTest
     {
-        //[TestMethod]
+        [TestMethod]
         public void ShouldContainsOnlyOneSun()
         {
-            var firstSun = new Sun();
-            var secondSun = new Sun();
-            
-            Assert.AreEqual(secondSun, firstSun);
+            var firstSun = Sun.Instance;
+            var secondSun = Sun.Instance;
+
+            Check.That(firstSun).IsEqualTo(secondSun);
         }
     }
 }
