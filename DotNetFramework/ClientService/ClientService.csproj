@@ -43,6 +43,9 @@
     <Compile Include="Adress.cs" />
     <Compile Include="Billing.cs" />
     <Compile Include="Client.cs" />
+    <Compile Include="CustomerService.cs" />
+    <Compile Include="IBIlling.cs" />
+    <Compile Include="IOrdering.cs" />
     <Compile Include="Option.cs" />
     <Compile Include="Order.cs" />
     <Compile Include="Ordering.cs" />
