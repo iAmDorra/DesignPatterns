@@ -8,39 +8,30 @@ namespace Shopping
 {
     public class Order
     {
-        private Status status = Status.InProgress;
+        private OrderStatus status;
         private List<Item> items = new List<Item>();
 
         public List<Item> Items { get => items; }
 
+        public Order()
+        {
+            // Can be passed into a parameter
+            status = new InProgressStatus(Items);
+        }
+        
         public void AddItem(Item item)
         {
-            if(status == Status.InProgress)
-            {
-                items.Add(item);
-            }
-            else
-            {
-                throw new System.NotSupportedException();
-            }
+            status.AddItem(item);
         }
 
         public void RemoveItem(Item item)
         {
-            switch (status)
-            {
-                case Status.InProgress:
-                case Status.Validated:
-                    items.Remove(item);
-                    break;
-                default:
-                    throw new System.NotSupportedException();
-            }
+            status.RemoveItem(item);
         }
 
         public void NextStatus()
         {
-            status = status + 1;
+            status = status.NextStatus();
         }
     }
 }
