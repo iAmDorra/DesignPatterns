@@ -41,7 +41,14 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Dentist.cs" />
+    <Compile Include="IElement.cs" />
+    <Compile Include="IIterable.cs" />
+    <Compile Include="IIterator.cs" />
+    <Compile Include="IWelcomePatient.cs" />
+    <Compile Include="Patient.cs" />
+    <Compile Include="Patients.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Secretary.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
